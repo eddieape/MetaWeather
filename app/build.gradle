@@ -18,10 +18,10 @@ android {
     }
     signingConfigs {
         config {
-            storeFile file('C:\\Users\\Administrator\\Documents\\PersonalDocs\\Projects\\Android\\gaop.jks')
-            storePassword 'Gpdev#123'
-            keyAlias = 'gaopdev'
-            keyPassword 'Gpdev#123'
+            storeFile file(KEY_PATH)
+            storePassword KEY_PASS
+            keyAlias ALIAS_NAME
+            keyPassword ALIAS_PASS
         }
     }
 
